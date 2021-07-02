@@ -132,10 +132,10 @@ Lots of love to the open source community!
 
 <!-- Health shields -->
 
-[codacy_shield]: https://img.shields.io/codacy/grade/f1ad5fa4cee24808afa66a5cf812c4ec
+[codacy_shield]: https://img.shields.io/codacy/grade/5656c08e1ca94f6da488d73fd99f1dcf
 [readthedocs_shield]: https://img.shields.io/readthedocs/fake-module
 [github_review_shield]: https://img.shields.io/github/workflow/status/joellefkowitz/fake-module/Review
-[codacy_coverage_shield]: https://img.shields.io/codacy/coverage/f1ad5fa4cee24808afa66a5cf812c4ec
+[codacy_coverage_shield]: https://img.shields.io/codacy/coverage/5656c08e1ca94f6da488d73fd99f1dcf
 
 <!-- Repository shields -->
 
