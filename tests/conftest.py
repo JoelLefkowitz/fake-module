@@ -7,5 +7,3 @@ sys.path.extend(
         for path in [(".."), ("..", "src")]
     ]
 )
-import colorsys
-colorsys.rgb_to_hls = 2
