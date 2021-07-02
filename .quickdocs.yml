@@ -1,0 +1,7 @@
+project: fake-module
+version: 0.1.0
+author: Joel Lefkowitz
+verbose_name: Fake module
+html_title: Fake module
+github_url: https://github.com/JoelLefkowitz/fake-module
+apidoc_module_dir: src
