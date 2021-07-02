@@ -16,7 +16,7 @@ class FakeModule:
         self.name = name
 
     def __setattr__(self, name: str, value: Any) -> None:
-        super(FakeModule, self).__setattr__(name, value)
+        super().__setattr__(name, value)
         setattr(self.module, name, value)
 
     def __enter__(self) -> "FakeModule":
