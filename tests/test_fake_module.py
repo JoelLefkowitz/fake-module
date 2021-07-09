@@ -9,7 +9,6 @@ from src.fake_module import FakeModule, MissingModule
 def test_faked_attributes() -> None:
     fake = FakeModule("colorsys")
     fake.purge()
-
     setattr(fake, "rgb_to_hls", 1)
     assert colorsys.rgb_to_hls == 1  # type: ignore
 

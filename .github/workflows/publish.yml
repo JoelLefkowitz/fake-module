@@ -8,7 +8,7 @@ on:
 jobs:
   publish:
     name: Publish the package on pypi
-    if: github.event.base_ref == 'refs/heads/master'
+    if: ${{ github.ref == 'refs/heads/master' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the source code

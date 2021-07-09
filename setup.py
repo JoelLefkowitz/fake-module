@@ -4,8 +4,8 @@ from typing import Any, Dict, List, cast
 from setuptools import setup
 
 configuration = {
-    "packages": ['fake_module'],
-    "package_dir": {'fake_module': 'src'},
+    "packages": ["fake_module"],
+    "package_dir": {"fake_module": "src"},
     "install_requires": [
         "dataclasses",
         "types-dataclasses",
@@ -21,7 +21,13 @@ configuration = {
             "black",
             "isort",
         ],
-        "tests": ["tox", "coverage", "pytest"],
+        "tests": [
+            "tox",
+            "pytest-mocha",
+            "pytest-sugar",
+            "pytest",
+            "coverage",
+        ],
         "docs": ["quickdocs"],
         "publishers": [
             "twine",
