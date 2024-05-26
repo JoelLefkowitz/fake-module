@@ -1,2 +1,2 @@
-from .fake_module import FakeModule
 from .exceptions import MissingModule
+from .fake_module import FakeModule

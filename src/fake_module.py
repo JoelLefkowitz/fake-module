@@ -1,9 +1,8 @@
 import importlib
 import sys
-
-from types import ModuleType, TracebackType
-from typing import Optional, Type, Any
 from .exceptions import MissingModule
+from types import ModuleType, TracebackType
+from typing import Any, Optional, Type
 
 
 class FakeModule:

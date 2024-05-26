@@ -1,8 +1,5 @@
-# pylint: disable=comparison-with-callable
 import colorsys
-
 import pytest
-
 from src.fake_module import FakeModule, MissingModule
 
 
