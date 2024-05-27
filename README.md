@@ -8,7 +8,7 @@ Globally replace a module with a configurable fake.
 ![Quality](https://img.shields.io/codacy/grade/5656c08e1ca94f6da488d73fd99f1dcf)
 ![Coverage](https://img.shields.io/codacy/coverage/5656c08e1ca94f6da488d73fd99f1dcf)
 
-## Installation
+## Installing
 
 ```bash
 pip install fake-module
