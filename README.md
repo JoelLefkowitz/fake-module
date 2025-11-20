@@ -2,7 +2,7 @@
 
 Globally replace a module with a configurable fake.
 
-![Review](https://img.shields.io/github/actions/workflow/status/JoelLefkowitz/fake-module/review.yml)
+![Review](https://img.shields.io/github/actions/workflow/status/JoelLefkowitz/fake-module/review.yaml)
 ![Version](https://img.shields.io/pypi/v/fake-module)
 ![Downloads](https://img.shields.io/pypi/dw/fake-module)
 ![Quality](https://img.shields.io/codacy/grade/5656c08e1ca94f6da488d73fd99f1dcf)
